@@ -1,0 +1,482 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for com.aliyun.openservices.tablestore:Timeline:jar:2.0.0
+[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 12, column 21
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
+[[1;33mWARNING[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------< [0;36mcom.aliyun.openservices.tablestore:Timeline[0;1m >-------------[m
+[[1;34mINFO[m] [1mBuilding Timeline 2.0.0[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mtestrunner-maven-plugin:1.2:testplugin[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mTimeline[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mTimeline[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] skip non existing resourceDirectory /home/ch61/tablestore-timeline/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mTimeline[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mTimeline[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] skip non existing resourceDirectory /home/ch61/tablestore-timeline/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:testCompile[m [1m(default-testCompile)[m @ [36mTimeline[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mtestrunner-maven-plugin:1.2:testplugin[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mTimeline[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mtestrunner-maven-plugin:1.2:testplugin[m [1m(default-cli)[m @ [36mTimeline[0;1m ---[m
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] No timeout specified. Using randomize.rounds: 10
+[[1;34mINFO[m] ROUNDS_CALCULATED: Giving com.aliyun.openservices.tablestore:Timeline:2.0.0 10 rounds to run for random-class-method
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Getting original order by parsing logs. ignoreExisting set to: false
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Getting original results (154 tests).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] No passing order for tests (3 runs). Continuing anyway with last run.
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestTimelineV1.testUpdateMessageByV2, status: expected ERROR, got ERROR
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestTimelineV1.testUpdateMessageByV2, status: expected SKIPPED, got SKIPPED
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestMetaService.testDeleteMeta, status: expected ERROR, got SKIPPED
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestMetaService.testInsertMeta, status: expected SKIPPED, got SKIPPED
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestMetaService.testInsertMeta, status: expected ERROR, got ERROR
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestTimeline.testBatchStoreFailedCallback, status: expected ERROR, got ERROR
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestTimeline.testBatchStoreFailedCallback, status: expected SKIPPED, got SKIPPED
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestTimeline.testStoreAsyncManualSeqId, status: expected ERROR, got SKIPPED
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestTimeline.testTimelineAutoSeqId, status: expected ERROR, got ERROR
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestTimeline.testTimelineAutoSeqId, status: expected SKIPPED, got SKIPPED
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestTimelineService.testExceptionSearch, status: expected ERROR, got SKIPPED
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestExceptionOfService.testTimelineServiceException, status: expected SKIPPED, got SKIPPED
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestExceptionOfService.testTimelineServiceException, status: expected ERROR, got ERROR
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestMetaService.testExceptionSearch, status: expected SKIPPED, got ERROR
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestExceptionOfService.testMetaServiceException, status: expected ERROR, got ERROR
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestExceptionOfService.testMetaServiceException, status: expected SKIPPED, got SKIPPED
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestExceptionOfService.testTimelineException, status: expected SKIPPED, got SKIPPED
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestExceptionOfService.testTimelineException, status: expected ERROR, got SKIPPED
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestTimeline.testBatchStoreAutoSedIdAsync, status: expected SKIPPED, got SKIPPED
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestTimeline.testBatchStoreAutoSedIdAsync, status: expected ERROR, got ERROR
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestTimeline.testStoreAsyncFailedCallback, status: expected ERROR, got SKIPPED
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestTimeline.testBatchStoreManualSeqId, status: expected ERROR, got SKIPPED
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestServiceFactory.testCreateTablesAndIndex, status: expected ERROR, got ERROR
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestServiceFactory.testCreateTablesAndIndex, status: expected SKIPPED, got ERROR
+[INFO] Found 7 tests in round 1 of 10 (0.0 seconds elapsed (25.7 total), 0.0 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestMetaService.testUpdateMeta, status: expected ERROR, got SKIPPED
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestTimeline.testBatchStoreAutoSeqId, status: expected ERROR, got SKIPPED
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestDropTable.testDropTables, status: expected ERROR, got ERROR
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestDropTable.testDropTables, status: expected SKIPPED, got SKIPPED
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestTimeline.testStoreAsyncAutoSeqId, status: expected ERROR, got SKIPPED
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestExceptionOfService.testTimelineException, status: expected SKIPPED, got SKIPPED
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestExceptionOfService.testTimelineException, status: expected ERROR, got ERROR
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestTimeline.testBatchStoreAutoSedIdAsync, status: expected SKIPPED, got SKIPPED
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestTimeline.testBatchStoreAutoSedIdAsync, status: expected ERROR, got SKIPPED
+[INFO] Found 1 tests in round 1 of 10 (0.0 seconds elapsed (36.3 total), 0.0 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestMetaService.testUpdateMeta, status: expected ERROR, got SKIPPED
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestTimelineService.testSearchBySearchParameter, status: expected SKIPPED, got ERROR
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestTimeline.testLatestTimelineEntry, status: expected ERROR, got ERROR
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestTimeline.testLatestTimelineEntry, status: expected SKIPPED, got ERROR
+[INFO] Found 0 tests in round 1 of 10 (0.0 seconds elapsed (41.9 total), 0.0 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestMetaService.testInsertMeta, status: expected SKIPPED, got SKIPPED
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestMetaService.testInsertMeta, status: expected ERROR, got ERROR
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestTimeline.testUpdateManualSeqId, status: expected SKIPPED, got SKIPPED
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestTimeline.testUpdateManualSeqId, status: expected ERROR, got ERROR
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestTimeline.testBatchStoreManualSedIdAsync, status: expected ERROR, got ERROR
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestTimeline.testBatchStoreManualSedIdAsync, status: expected SKIPPED, got SKIPPED
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestTimeline.testUpdateAutoSeqId, status: expected ERROR, got SKIPPED
+[INFO] Found 2 tests in round 2 of 10 (5.6 seconds elapsed (51.6 total), 22.5 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestTimeline.testDeleteTimeline, status: expected SKIPPED, got ERROR
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestMetaService.testInsertMeta, status: expected SKIPPED, got SKIPPED
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestMetaService.testInsertMeta, status: expected ERROR, got ERROR
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestTimelineV1.testStoreMessageByV2, status: expected ERROR, got SKIPPED
+[INFO] Found 0 tests in round 1 of 10 (0.0 seconds elapsed (56.9 total), 0.0 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestDropTable.testDropTables, status: expected ERROR, got ERROR
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestDropTable.testDropTables, status: expected SKIPPED, got ERROR
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestTimeline.testBatchStoreAutoSedIdAsync, status: expected SKIPPED, got SKIPPED
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestTimeline.testBatchStoreAutoSedIdAsync, status: expected ERROR, got SKIPPED
+[INFO] Found 0 tests in round 2 of 10 (5.3 seconds elapsed (62.5 total), 21.3 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestMetaService.testInsertMeta, status: expected SKIPPED, got SKIPPED
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestMetaService.testInsertMeta, status: expected ERROR, got ERROR
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestServiceClose.testShutDown, status: expected ERROR, got ERROR
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestServiceClose.testShutDown, status: expected SKIPPED, got SKIPPED
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestTimeline.testStoreAsyncFailedCallback, status: expected ERROR, got SKIPPED
+[INFO] Found 1 tests in round 3 of 10 (10.9 seconds elapsed (68.0 total), 25.4 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestTimeline.testBatchStoreAutoSeqId, status: expected ERROR, got SKIPPED
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestTimeline.testDeleteTimeline, status: expected SKIPPED, got ERROR
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestTimeline.testLatestTimelineEntry, status: expected ERROR, got ERROR
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestTimeline.testLatestTimelineEntry, status: expected SKIPPED, got ERROR
+[INFO] Found 0 tests in round 1 of 10 (0.0 seconds elapsed (73.8 total), 0.0 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestTimelineService.testExceptionSearch, status: expected ERROR, got SKIPPED
+[INFO] Found 0 tests in round 2 of 10 (5.8 seconds elapsed (76.0 total), 23.3 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestExceptionDropTables.testDropTablesException, status: expected SKIPPED, got SKIPPED
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestExceptionDropTables.testDropTablesException, status: expected ERROR, got SKIPPED
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestTimeline.testTimelineManualSeqId, status: expected ERROR, got SKIPPED
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestTimeline.testLatestTimelineEntry, status: expected ERROR, got ERROR
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestTimeline.testLatestTimelineEntry, status: expected SKIPPED, got SKIPPED
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestTimeline.testBatchStoreManualSeqId, status: expected ERROR, got SKIPPED
+[INFO] Found 0 tests in round 3 of 10 (8.0 seconds elapsed (83.4 total), 18.7 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestTimeline.testBatchStoreAutoSeqId, status: expected ERROR, got SKIPPED
+[INFO] Found 0 tests in round 4 of 10 (15.3 seconds elapsed (86.1 total), 23.0 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestTimeline.testUpdateAutoSeqId, status: expected ERROR, got SKIPPED
+[INFO] Found 0 tests in round 5 of 10 (18.1 seconds elapsed (88.8 total), 18.1 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestMetaService.testUpdateMeta, status: expected ERROR, got SKIPPED
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestTimeline.testTimelineManualSeqId, status: expected ERROR, got SKIPPED
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestMetaService.testInsertMeta, status: expected SKIPPED, got SKIPPED
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestMetaService.testInsertMeta, status: expected ERROR, got SKIPPED
+[INFO] Found 0 tests in round 6 of 10 (20.7 seconds elapsed (93.3 total), 13.8 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestMetaService.testSearchMeta, status: expected ERROR, got ERROR
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestMetaService.testSearchMeta, status: expected SKIPPED, got ERROR
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestDropTable.testDropTables, status: expected ERROR, got ERROR
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestDropTable.testDropTables, status: expected SKIPPED, got SKIPPED
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestExceptionOfService.testTimelineException, status: expected SKIPPED, got SKIPPED
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestExceptionOfService.testTimelineException, status: expected ERROR, got SKIPPED
+[INFO] Found 0 tests in round 7 of 10 (25.2 seconds elapsed (100.3 total), 10.8 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 8 of 10 (32.3 seconds elapsed (101.7 total), 8.1 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestTimeline.testDeleteTimeline, status: expected SKIPPED, got ERROR
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestTimeline.testTimelineManualSeqId, status: expected ERROR, got SKIPPED
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestTimelineService.testCreateTimelineWithNull, status: expected ERROR, got SKIPPED
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestTimeline.testUpdateManualSeqId, status: expected SKIPPED, got SKIPPED
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestTimeline.testUpdateManualSeqId, status: expected ERROR, got ERROR
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestExceptionOfService.testTimelineServiceException, status: expected SKIPPED, got SKIPPED
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestExceptionOfService.testTimelineServiceException, status: expected ERROR, got SKIPPED
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestTimeline.testBatchStoreManualSeqId, status: expected ERROR, got SKIPPED
+[INFO] Found 0 tests in round 9 of 10 (33.7 seconds elapsed (112.3 total), 3.7 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestServiceFactory.testCreateTablesAndIndex, status: expected ERROR, got ERROR
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+Verified com.alicloud.openservices.tablestore.timeline2.functionTest.TestServiceFactory.testCreateTablesAndIndex, status: expected SKIPPED, got SKIPPED
+[INFO] Found 0 tests in round 10 of 10 (44.3 seconds elapsed (115.1 total), 0.0 seconds remaining).
+
+[INFO] Found 11 tests, writing list to /home/ch61/tablestore-timeline/.dtfixingtools/detection-results/list.txt and dt lists to /home/ch61/tablestore-timeline/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  02:02 min
+[[1;34mINFO[m] Finished at: 2021-11-18T13:05:22-06:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
